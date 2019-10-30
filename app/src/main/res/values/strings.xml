@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Hunger Cure</string>
+    <string name="todo">Food Image</string>
     <string-array name="options">
         <item>Eat</item>
         <item>Drink</item>

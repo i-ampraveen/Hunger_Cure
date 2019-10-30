@@ -11,6 +11,12 @@
     android:paddingRight="16sp"
     android:paddingLeft="16sp">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:id="@+id/foodimage"
+        android:contentDescription="@string/todo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
