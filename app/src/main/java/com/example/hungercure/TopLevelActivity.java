@@ -27,13 +27,13 @@ public class TopLevelActivity extends AppCompatActivity {
                 }
                 if(position == 1){
 
-                    Intent intent = new Intent(TopLevelActivity.this, FoodCategoryActivity1.class);
-                    startActivity(intent);
+                    Intent intent1 = new Intent(TopLevelActivity.this, FoodCategoryActivity1.class);
+                    startActivity(intent1);
                 }
                 if(position == 2){
 
-                    Intent intent = new Intent(TopLevelActivity.this, FoodCategoryActivity2.class);
-                    startActivity(intent);
+                    Intent intent2 = new Intent(TopLevelActivity.this, FoodCategoryActivity2.class);
+                    startActivity(intent2);
                 }
             }
         };

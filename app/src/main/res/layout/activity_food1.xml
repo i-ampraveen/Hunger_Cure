@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FoodActivity"
+    tools:context=".FoodActivity1"
     android:paddingTop="16sp"
     android:paddingBottom="16sp"
     android:paddingRight="16sp"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="350sp"
         android:id="@+id/foodimage"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="Food Image"/>
 
     <TextView
         android:layout_width="match_parent"

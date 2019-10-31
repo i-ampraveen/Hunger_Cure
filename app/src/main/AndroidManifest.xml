@@ -9,11 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FoodCategoryActivity2"></activity>
-        <activity android:name=".FoodCategoryActivity1" />
-        <activity android:name=".FoodActivity" />
-        <activity android:name=".FoodCategoryActivity" />
-        <activity android:name=".TopLevelActivity">
+        <activity android:name=".FoodActivity2"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name=".FoodActivity1"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".FoodCategoryActivity2"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".FoodCategoryActivity1"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".FoodActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".FoodCategoryActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".TopLevelActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
