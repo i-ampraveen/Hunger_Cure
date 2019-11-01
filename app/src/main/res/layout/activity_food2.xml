@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="350sp"
-        android:id="@+id/foodno"
+        android:id="@+id/foodimage"
         android:contentDescription="Food Image"/>
 
     <TextView
